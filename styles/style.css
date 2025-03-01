@@ -1,9 +1,157 @@
 @import url('../styles/fonts.css');
 @import url('../styles/responsive.css');
+@import url('../styles/variables.css');
 
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'montserrat-regular';
+    font-family: 'montserrat-light';
 }
+
+/* ========================== HOME ========================== */
+
+#section-home {
+    background-image: url(../assets/imgs/consultorio-teste-bg-2.jpg);
+    height: 700px;
+    background-blend-mode: multiply;
+    background-color: var(--cor-1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section-home nav {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#section-home ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 54px;
+    border-bottom: 1px solid var(--dourado);
+    overflow-y: hidden;
+}
+
+#section-home ul li {
+    list-style: none;
+}
+
+#section-home ul li a {
+    text-decoration: none;
+    color: var(--cor-4);
+    transition: all 150ms ease-in-out;
+    padding: 20px;
+}
+
+#section-home ul li a:hover {
+    background-color: var(--cor-4);
+    color: var(--cor-1);
+}
+
+#home-content {
+    color: var(--cor-4);
+    position: relative;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+#home-content>div {
+    padding-top: 100px;
+}
+
+#home-content>div>h1 {
+    font-size: 90px;
+    padding-left: 10px;
+}
+
+#home-content>div>h2,
+#home-content>div>h3 {
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+#home-barra-dourada {
+    background-color: var(--dourado);
+    width: 625px;
+    height: 10px;
+}
+
+#img-isabella-home {
+    position: absolute;
+    bottom: -90px;
+    right: 200px;
+}
+
+#text-center-home {
+    position: absolute;
+    right: 40%;
+    top: 55%;
+    font-size: 40px;
+}
+
+#btn-agendar-consulta {
+    color: var(--cor-1);
+    text-decoration: none;
+    background-color: var(--dourado);
+    padding: 10px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'montserrat-regular';
+    border-radius: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    transition: all 150ms ease-in-out;
+}
+
+#btn-agendar-consulta:hover {
+    background-color: var(--cor-3);
+}
+
+#btn-agendar-consulta img {
+    width: 50px;
+}
+
+/* ========================== ESPECIALIDADES ========================== */
+
+#section-especialidades {
+    margin-top: 150px;
+}
+
+#section-especialidades > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 120px; */
+} 
+
+#section-especialidades > div:nth-child(1) h1 {
+    color: var(--cor-1);
+    font-size: 50px;
+    text-align: center;
+}
+
+#section-especialidades > div:nth-child(1) > div {
+    width: 50%;
+}
+
+#especialidades-barra {
+      background-color: var(--cor-1);
+      height: 20px;
+      width: 100%;
+}
+
+
+
+/* ========================== PORTFÓLIO ========================== */
+/* ========================== SOBRE MIM ========================== */
+/* ========================== FEEDBACKS ========================== */
+/* ========================== CONTATO ========================== */
