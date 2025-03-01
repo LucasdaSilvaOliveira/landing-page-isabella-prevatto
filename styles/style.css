@@ -9,6 +9,10 @@
     font-family: 'montserrat-light';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ========================== HOME ========================== */
 
 #section-home {
@@ -125,33 +129,96 @@
     margin-top: 150px;
 }
 
-#section-especialidades > div:nth-child(1) {
+.div-split-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* padding-left: 120px; */
-} 
+}
 
-#section-especialidades > div:nth-child(1) h1 {
+.div-split-section h1 {
     color: var(--cor-1);
     font-size: 50px;
     text-align: center;
 }
 
-#section-especialidades > div:nth-child(1) > div {
+.div-split-section>div {
     width: 50%;
 }
 
-#especialidades-barra {
-      background-color: var(--cor-1);
-      height: 20px;
-      width: 100%;
+.split-barra {
+    background-color: var(--cor-1);
+    height: 20px;
+    width: 100%;
 }
 
+#especialidades-content {
+    margin-top: 200px;
+}
 
+.item-line-especialidades {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-bg-escuro,
+.item-bg-claro {
+    width: 50%;
+    text-align: center;
+    padding: 100px 20px;
+    height: 400px;
+    font-size: 50px;
+}
+
+.item-bg-escuro p,
+.item-bg-claro p {
+    margin-top: 100px;
+}
+
+.item-bg-escuro {
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+}
+
+.item-bg-claro {
+    color: var(--cor-1);
+}
+
+.item-bg-claro h1 {
+    background-color: var(--dourado);
+    width: fit-content;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
 
 /* ========================== PORTFÓLIO ========================== */
+
+#section-portfolio {
+    margin-top: 150px;
+}
+
+#portfolio-content {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#portfolio-content img {
+    width: 500px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+#portfolio-content p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: var(--cor-1);
+    width: 450px;
+    margin: auto;
+}
+
 /* ========================== SOBRE MIM ========================== */
 /* ========================== FEEDBACKS ========================== */
 /* ========================== CONTATO ========================== */
