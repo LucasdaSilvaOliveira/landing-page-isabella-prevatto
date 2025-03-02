@@ -220,5 +220,56 @@ html {
 }
 
 /* ========================== SOBRE MIM ========================== */
+
+#section-sobre-mim {
+    background-color: var(--cor-1);
+    padding: 100px;
+    margin-top: 150px;
+}
+
+#sobre-mim-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#sobre-mim-title>div>div:nth-child(1) {
+    background-color: var(--cor-2);
+    width: 15px;
+    height: 50px;
+}
+
+#sobre-mim-title>div>div:nth-child(2) {
+    background-color: var(--dourado);
+    width: 15px;
+    height: 50px;
+}
+
+#sobre-mim-title h1 {
+    color: var(--cor-4);
+    font-family: "montserrat-regular";
+    font-size: 60px;
+}
+
+#sobre-mim-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#sobre-mim-content > div {
+    color: var(--cor-4);
+    font-size: 50px;
+    line-height: 80px;
+    width: 50%;
+}
+
+#sobre-mim-content > img {
+    width: 700px;
+}
+
 /* ========================== FEEDBACKS ========================== */
+
+
+
 /* ========================== CONTATO ========================== */
