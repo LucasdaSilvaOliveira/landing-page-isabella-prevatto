@@ -27,3 +27,8 @@
     font-family: montserrat-semi-bold;
     src: url(../assets/font/static/Montserrat-SemiBold.ttf);
 }
+
+@font-face {
+    font-family: moondance;
+    src: url(../assets/font/Moon_Dance/MoonDance-Regular.ttf);
+}
