@@ -166,7 +166,7 @@ html {
     width: 50%;
     text-align: center;
     padding: 100px 20px;
-    height: 400px;
+    height: 300px;
     font-size: 30px;
 }
 
@@ -188,7 +188,7 @@ html {
     background-color: var(--dourado);
     width: fit-content;
     margin: auto;
-    padding: 10px 50px;
+    padding: 0px 50px;
     border-radius: 50px;
 }
 
@@ -227,6 +227,20 @@ html {
     margin-top: 150px;
 }
 
+#section-sobre-mim > div:nth-child(1) {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#img-logo-sobre-mim {
+    position: absolute;
+    margin: auto;
+    width: 150px;
+    transform: translateY(-190px);
+}
+
 #sobre-mim-title {
     display: flex;
     align-items: center;
@@ -259,13 +273,13 @@ html {
 
 #sobre-mim-content>div {
     color: var(--cor-4);
-    font-size: 50px;
+    font-size: 30px;
     line-height: 80px;
     width: 50%;
 }
 
 #sobre-mim-content>img {
-    width: 700px;
+    width: 500px;
 }
 
 /* ========================== FEEDBACKS ========================== */
