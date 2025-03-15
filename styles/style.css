@@ -76,14 +76,6 @@ ul li a {
   color: var(--cor-1);
 }
 
-/* #home-content {
-  color: var(--cor-4);
-  position: relative;
-  height: 100%;
-  overflow-y: hidden;
-  padding: 0 10rem;
-} */
-
 .home-content {
   width: 50%;
   display: flex;
@@ -241,13 +233,13 @@ ul li a {
   width: 50%;
   text-align: center;
   padding: 100px 20px;
-  height: 250px;
-  font-size: 30px;
+  height: 150px;
+  font-size: 20px;
 }
 
 .item-bg-escuro p,
 .item-bg-claro p {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .item-bg-escuro {
@@ -280,18 +272,22 @@ ul li a {
   justify-content: space-around;
 }
 
+#portfolio-content >div{
+  text-align: center;
+}
+
 #portfolio-content img {
-  width: 500px;
-  height: 600px;
+  width: 425px;
+  height: 550px;
   margin-bottom: 20px;
 }
 
 #portfolio-content p {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 20px;
   color: var(--cor-1);
-  width: 450px;
+  width: 100%;
   margin: auto;
 }
 
@@ -325,19 +321,19 @@ ul li a {
 #sobre-mim-title>div>div:nth-child(1) {
   background-color: #4B4F3A;
   width: 15px;
-  height: 50px;
+  height: 40px;
 }
 
 #sobre-mim-title>div>div:nth-child(2) {
   background-color: var(--dourado);
   width: 15px;
-  height: 50px;
+  height: 40px;
 }
 
 #sobre-mim-title h1 {
   color: var(--cor-4);
   font-family: "montserrat-regular";
-  font-size: 60px;
+  font-size: 40px;
 }
 
 #sobre-mim-content {
@@ -348,7 +344,7 @@ ul li a {
 
 #sobre-mim-content>div {
   color: var(--cor-4);
-  font-size: 30px;
+  font-size: 28px;
   line-height: 80px;
   width: 50%;
 }
@@ -397,7 +393,7 @@ ul li a {
 
 #feedbacks-content>div {
   background-color: var(--cor-2);
-  width: 600px;
+  width: 500px;
   padding: 20px;
   border-radius: 10px;
   color: var(--cor-4);
