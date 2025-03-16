@@ -49,20 +49,17 @@ h3 {
   border-radius: 5px;
   color: var(--cor-1);
   background-color: var(--dourado);
-  position: absolute;
+  position: fixed;
   left: 10px;
   top: 10px;
   display: none;
   cursor: pointer;
   transition: all 300ms ease-in-out;
-  transform: rotateX(50%);
 }
 
 .drop-menu {
   height: 324px !important;
 }
-
-.rotate-btn {}
 
 nav {
   position: absolute;
@@ -229,6 +226,7 @@ ul li a {
 
 #especialidades-content {
   margin-top: 200px;
+  position: relative;
 }
 
 .item-line-especialidades {
@@ -266,6 +264,30 @@ ul li a {
   padding: 0px 50px;
   border-radius: 50px;
   color: var(--cor-1);
+}
+
+#buttons-prev-next {
+  position: absolute;
+  bottom: -250px;
+  z-index: 1000;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  gap: 30px;
+}
+
+#buttons-prev-next span {
+  width: 30px;
+  height: 30px;
+  display: block;
+  /* border: 1px solid var(--cor-2); */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--cor-4);
+  background-color: var(--cor-1);
 }
 
 /* ========================== PORTFÓLIO ========================== */

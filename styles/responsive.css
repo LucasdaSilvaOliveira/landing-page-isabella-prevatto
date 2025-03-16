@@ -377,10 +377,11 @@
     #second-img-mapa {
         width: 100% !important;
     }
+
     #second-img-mapa img {
         width: 100% !important;
     }
-} 
+}
 
 @media (max-width: 600px) {
 
@@ -401,7 +402,46 @@
 }
 
 @media (max-width:580px) {
+
+    /* ESPECIALIDADES */
+
+    #buttons-prev-next {
+        display: flex !important;
+    }
+
+    .item-especialidade {
+        position: absolute;
+        width: 100%; /* Ajuste conforme necessário */
+        height: 100%;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .item-especialidade.active {
+        opacity: 1;
+        transform: rotateY(0deg);
+        pointer-events: auto;
+    }
+    
+    .item-especialidade.prev {
+        transform: rotateY(-180deg);
+    }
+    
+    .item-especialidade.next {
+        transform: rotateY(180deg);
+    }
+    
+
     /* PORTFOLIO */
+
+    #section-portfolio {
+        margin-top: 450px !important;
+    }
+
+    /* FEEDBACKS */
 
     #feedbacks-title h1 {
         font-size: 30px !important;
@@ -426,21 +466,21 @@
 
     /* CONTATO */
 
-    #contato-content > div:nth-child(1) > div {
+    #contato-content>div:nth-child(1)>div {
         flex-direction: column;
     }
 
-    #contato-content > div:nth-child(2) > div {
+    #contato-content>div:nth-child(2)>div {
         flex-direction: column;
         align-items: center !important;
     }
 
 
-    #contato-content > div:nth-child(1) p {
+    #contato-content>div:nth-child(1) p {
         font-size: 14px !important;
     }
 
-    #contato-content > div:nth-child(2) p {
+    #contato-content>div:nth-child(2) p {
         font-size: 14px !important;
         text-align: center !important;
     }
