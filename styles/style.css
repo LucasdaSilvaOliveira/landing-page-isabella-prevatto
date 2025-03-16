@@ -472,11 +472,17 @@ ul li a {
 
 #contato-content>div:nth-child(1) {
   display: flex;
+  flex-direction: column;
 }
 
-#contato-content>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
-#contato-content>div:nth-child(1)>div:nth-child(1)>div:nth-child(2),
-#contato-content>div:nth-child(1)>div:nth-child(1)>div:nth-child(3) {
+#contato-content>div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+#contato-content>div:nth-child(1)>div:nth-child(1),
+#contato-content>div:nth-child(1)>div:nth-child(2),
+#contato-content>div:nth-child(1)>div:nth-child(3) {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -486,8 +492,8 @@ ul li a {
   padding-left: 120px;
 }
 
-#contato-content>div:nth-child(1)>div:nth-child(2)>div:nth-child(1),
-#contato-content>div:nth-child(1)>div:nth-child(2)>div:nth-child(2) {
+#contato-content>div:nth-child(2)>div:nth-child(1),
+#contato-content>div:nth-child(2)>div:nth-child(2) {
   display: flex;
   align-items: top;
   gap: 10px;
@@ -495,6 +501,10 @@ ul li a {
   font-size: 20px;
   width: 80%;
   padding-left: 120px;
+}
+
+#second-img-mapa {
+  display: none;
 }
 
 #contato-footer {
