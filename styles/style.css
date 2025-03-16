@@ -280,7 +280,6 @@ ul li a {
   width: 30px;
   height: 30px;
   display: block;
-  /* border: 1px solid var(--cor-2); */
   border-radius: 5px;
   display: flex;
   justify-content: center;

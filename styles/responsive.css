@@ -411,13 +411,19 @@
 
     .item-especialidade {
         position: absolute;
-        width: 100%; /* Ajuste conforme necessário */
-        height: 100%;
+        width: 100% !important; /* Ajuste conforme necessário */
         backface-visibility: hidden;
         transform-style: preserve-3d;
         transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
         opacity: 0;
         pointer-events: none;
+        background-color: var(--cor-2) !important;
+        color: var(--cor-4) !important;
+    }
+
+    .item-bg-claro h1 {
+        background-color: transparent !important;
+        color: var(--cor-4) !important;
     }
     
     .item-especialidade.active {
