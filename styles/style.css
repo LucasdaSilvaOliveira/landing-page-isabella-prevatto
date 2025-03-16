@@ -43,10 +43,32 @@ h3 {
   padding: 55px 6rem 0 6rem;
 }
 
+#button-toggle-menu {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--cor-1);
+  background-color: var(--dourado);
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: none;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  transform: rotateX(50%);
+}
+
+.drop-menu {
+  height: 324px !important;
+}
+
+.rotate-btn {}
+
 nav {
   position: absolute;
   width: 100%;
   z-index: 10;
+  transition: all 150ms ease-in-out;
 }
 
 ul {
@@ -107,8 +129,9 @@ ul li a {
   text-decoration: none;
   color: rgb(24, 24, 24);
   font-weight: bold;
-  width: 60%;
+  width: fit-content;
   margin-top: 3rem;
+  padding: 0px 25px 0px 10px;
 }
 
 .home-content>a:nth-child(3)>img {
@@ -130,21 +153,6 @@ ul li a {
   position: relative;
   width: 40%
 }
-
-/* #home-content>div {
-  padding-top: 100px;
-}
-
-#home-content>div>h1 {
-  font-size: 90px;
-  padding-left: 10px;
-}
-
-#home-content>div>h2,
-#home-content>div>h3 {
-  padding-left: 15px;
-  margin-top: 15px;
-} */
 
 #home-barra-dourada {
   background-color: var(--dourado);
@@ -272,7 +280,7 @@ ul li a {
   justify-content: space-around;
 }
 
-#portfolio-content >div{
+#portfolio-content>div {
   text-align: center;
 }
 
@@ -356,7 +364,7 @@ ul li a {
 /* ========================== FEEDBACKS ========================== */
 
 #section-feedbacks {
-  padding: 150px 80px;
+  padding: 150px 100px;
 }
 
 #feedbacks-title {
@@ -365,19 +373,22 @@ ul li a {
   gap: 10px;
 }
 
-#feedbacks-title span {
-  background-color: var(--cor-1);
-  width: 20px;
-  height: 20px;
-  display: block;
-  border-radius: 100%;
+#feedbacks-title>div>div:nth-child(1) {
+  background-color: #4B4F3A;
+  width: 15px;
+  height: 40px;
+}
+
+#feedbacks-title>div>div:nth-child(2) {
+  background-color: var(--dourado);
+  width: 15px;
+  height: 40px;
 }
 
 #feedbacks-title h1 {
   font-family: "montserrat-regular";
   color: var(--cor-1);
-  background-color: var(--dourado);
-  font-size: 30px;
+  font-size: 40px;
   width: fit-content;
   padding: 10px 20px;
   border-radius: 50px;
@@ -463,9 +474,9 @@ ul li a {
   display: flex;
 }
 
-#contato-content>div:nth-child(1)> div:nth-child(1)>div:nth-child(1),
-#contato-content>div:nth-child(1)> div:nth-child(1)>div:nth-child(2),
-#contato-content>div:nth-child(1)> div:nth-child(1)>div:nth-child(3) {
+#contato-content>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+#contato-content>div:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+#contato-content>div:nth-child(1)>div:nth-child(1)>div:nth-child(3) {
   display: flex;
   align-items: center;
   gap: 10px;
