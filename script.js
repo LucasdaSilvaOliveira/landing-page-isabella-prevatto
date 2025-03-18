@@ -31,7 +31,3 @@ function AlterarEspecialidade(direction) {
 
 // Inicializa o primeiro item como ativo
 itensEspecialidade[especCurrent].classList.add("active");
-
-$(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
-  });
