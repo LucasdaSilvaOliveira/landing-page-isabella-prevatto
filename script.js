@@ -31,3 +31,17 @@ function AlterarEspecialidade(direction) {
 
 // Inicializa o primeiro item como ativo
 itensEspecialidade[especCurrent].classList.add("active");
+
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        items: 3,
+        loop: true,
+        dots: false,
+        nav: false,
+        responsive: {
+            0: { items: 1 }, // 1 item visível em telas pequenas
+            670: { items: 2 }, // 2 itens visíveis em telas médias
+            1000: { items: 3 } // 3 itens visíveis em telas grandes
+        }
+    });
+});

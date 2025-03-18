@@ -298,17 +298,21 @@ ul li a {
 #portfolio-content {
   margin-top: 150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #portfolio-content>div {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #portfolio-content img {
   width: 425px;
   height: 550px;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 #portfolio-content p {
@@ -318,6 +322,10 @@ ul li a {
   color: var(--cor-1);
   width: 100%;
   margin: auto;
+}
+
+.owl-nav {
+  display: none !important;
 }
 
 /* ========================== SOBRE MIM ========================== */
