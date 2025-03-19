@@ -73,7 +73,6 @@
     }
 }
 
-/* Responsividade */
 @media (max-width: 1024px) {
     #section-home {
         flex-direction: column !important;
@@ -502,7 +501,6 @@
         text-align: center !important;
     }
 }
-
 
 @media (max-width: 480px) {
     ul {
