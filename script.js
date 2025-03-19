@@ -36,7 +36,7 @@ $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         items: 3,
         loop: true,
-        dots: false,
+        dots: true,
         nav: false,
         responsive: {
             0: { items: 1 }, // 1 item visível em telas pequenas

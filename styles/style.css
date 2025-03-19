@@ -293,6 +293,7 @@ ul li a {
 
 #section-portfolio {
   margin-top: 150px;
+  position: relative;
 }
 
 #portfolio-content {
@@ -326,6 +327,37 @@ ul li a {
 
 .owl-nav {
   display: none !important;
+}
+
+#div-arraste-lado {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  color: gray;
+  font-size: 30px;
+  font-style: italic;
+  animation-name: alteracao-opacity-text;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0.3;
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+
+@keyframes alteracao-opacity-text {
+  0% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
 }
 
 /* ========================== SOBRE MIM ========================== */

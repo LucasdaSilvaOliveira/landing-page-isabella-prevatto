@@ -233,6 +233,12 @@
     }
 }
 
+@media (max-width: 1000px) {
+    #div-arraste-lado {
+        display: flex !important;
+    }
+}
+
 @media (max-width:930px) {
 
     /* CONTATO */
@@ -447,6 +453,11 @@
         margin-top: 450px !important;
     }
 
+    #div-arraste-lado {
+        font-size: 20px !important;
+        right: 10px !important;
+    }
+
     /* FEEDBACKS */
 
     #feedbacks-title h1 {
@@ -562,5 +573,12 @@
     #sobre-mim-content>img {
         width: 280px !important;
         height: 430px !important;
+    }
+
+    /* PORTFOLIO */
+
+    #div-arraste-lado {
+        font-size: 16px !important;
+        top: 100px !important;
     }
 }
