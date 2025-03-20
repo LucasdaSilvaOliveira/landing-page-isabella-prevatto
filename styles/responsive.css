@@ -412,6 +412,7 @@
 
     #buttons-prev-next {
         display: flex !important;
+        bottom: -300px !important;
     }
 
     .item-especialidade {
