@@ -35,7 +35,7 @@ itensEspecialidade[especCurrent].classList.add("active");
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         items: 3,
-        loop: true,
+        loop: false,
         dots: true,
         nav: false,
         responsive: {

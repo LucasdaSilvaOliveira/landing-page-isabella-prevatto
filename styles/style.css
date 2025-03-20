@@ -331,7 +331,7 @@ ul li a {
 
 #div-arraste-lado {
   position: absolute;
-  top: 80px;
+  top: 120px;
   right: 80px;
   color: gray;
   font-size: 30px;
@@ -341,7 +341,7 @@ ul li a {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   opacity: 0.3;
-  display: none;
+  display: flex;
   align-items: center;
   gap: 10px;
 }
