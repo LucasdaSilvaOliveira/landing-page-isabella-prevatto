@@ -502,6 +502,12 @@
     }
 }
 
+@media (max-width: 510px) {
+    #br-text-home {
+        display: block !important;
+      }
+}
+
 @media (max-width: 480px) {
     ul {
         gap: 10px !important;
@@ -562,6 +568,15 @@
 
     #feedbacks-title h1 {
         font-size: 22px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    #contato-content>div:nth-child(1) p {
+        font-size: 12px !important;
+    }
+    #contato-content>div:nth-child(2) p {
+        font-size: 12px !important;
     }
 }
 

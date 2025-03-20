@@ -1,5 +1,12 @@
 let buttonToggleMenu = document.getElementById("button-toggle-menu");
 let menu = document.getElementById("nav-menu");
+let btnMenuItem = document.querySelectorAll(".btn-menu-item");
+
+btnMenuItem.forEach(item => {
+    item.addEventListener("click", () => {
+        menu.classList.remove("drop-menu")
+    })
+})
 
 buttonToggleMenu.addEventListener("click", function () {
     menu.classList.toggle("drop-menu")

@@ -48,6 +48,10 @@ h3 {
   padding: 55px 6rem 0 6rem;
 }
 
+#br-text-home {
+  display: none;
+}
+
 #button-toggle-menu {
   border: 1px solid gray;
   padding: 10px;
