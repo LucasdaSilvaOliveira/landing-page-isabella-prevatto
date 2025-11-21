@@ -1,13 +1,339 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Dra Isabella Prevatto</title>
+  <meta name="google-site-verification" content="KJDrm_1JFyB1-0x7gPiu2sCl0KVIvGt9HIYy7jYIzEg" />
+  <meta charset="UTF-8" / />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" / />
+  <meta name="description"
+    content="Especialista em Prótese sobre Implante, Restauração Dental, Estética, Implantes, Extração, Profilaxia e Clareamento. Agende sua consulta! CRO 50079 RJ.">
+  <link rel="shortcut icon" href="assets/imgs/favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/style.css" / />
+  <link rel="stylesheet" href="assets/lib/fontawesome-free-6.7.2-web/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/lib/fontawesome-free-6.7.2-web/css/solid.css" />
+  <link rel="stylesheet" href="assets/lib/fontawesome-free-6.7.2-web/css/regular.css" />
+  <link rel="stylesheet" href="assets/lib/fontawesome-free-6.7.2-web/css/brands.css" />
+  <link rel="stylesheet" href="assets/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+  <link rel="stylesheet" href="assets/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16940616352">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16940616352');
+  </script>
+  <title>Dra. Isabella Prevatto - Cirurgiã-Dentista | Implantes, Estética e Prótese</title>
   </head>
+
   <body>
-    <h1>Que isso lek</h1>
-    <script src="script.js"></script>
+  <span id="button-toggle-menu">
+    <i class="fa-solid fa-bars"></i>
+  </span>
+  <nav id="nav-menu">
+    <ul>
+      <li><a class="btn-menu-item" href="#section-home">Home</a></li>
+      <li><a class="btn-menu-item" href="#section-especialidades">Especialidades</a></li>
+      <li><a class="btn-menu-item" href="#section-portfolio">Portfólio</a></li>
+      <li><a class="btn-menu-item" href="#section-sobre-mim">Sobre</a></li>
+      <li><a class="btn-menu-item" href="#section-feedbacks">Feedbacks</a></li>
+      <li><a class="btn-menu-item" href="#section-contato">Contato</a></li>
+    </ul>
+  </nav>
+  <section id="section-home" class="section1">
+    <div class="home-content">
+      <div>
+        <h1>
+          Dra. Isabella Prevatto
+        </h1>
+        <h2>Cirgurgiã dentista, CRO 50079 RJ</h2>
+      </div>
+      <p>
+        Reconstruindo sorrisos, <br id="br-text-home"> transformando vidas.
+      </p>
+      <a href="https://wa.me/5521998409575" target="_blank">
+        <img src="assets/imgs/whatsapp-logo-removebg-preview.png" alt="Logo whatsapp" />
+        <p>Agende sua consulta</p>
+      </a>
+    </div>
+    <div class="img-home">
+      <img src="assets/imgs/foto-isabella-1.png" alt="Foto Isabella Prevatto" />
+    </div>
+  </section>
+
+  <section id="section-especialidades">
+    <div class="div-split-section">
+      <div>
+        <h1>Especialidades</h1>
+      </div>
+      <div>
+        <div class="split-barra"></div>
+      </div>
+    </div>
+
+    <div id="especialidades-content">
+      <div class="item-line-especialidades">
+        <div class="item-bg-escuro item-especialidade">
+          <h1>Prótese sobre implante</h1>
+          <p>
+            Solução ideal para devolver a estética e o conforto do seu
+            sorriso.
+          </p>
+        </div>
+        <div class="item-bg-claro item-especialidade">
+          <h1>Restauração Dental</h1>
+          <p>Restauração de dentes com materiais de alta qualidade.</p>
+        </div>
+
+        <div class="item-bg-escuro item-especialidade">
+          <h1>Procedimentos de estética</h1>
+          <p>Colocação de lentes em resina e porcelana.</p>
+        </div>
+      </div>
+      <div class="item-line-especialidades">
+        <div class="item-bg-claro item-especialidade">
+          <h1>Implantes e extração dental</h1>
+          <p>Recupere a saúde bucal e a autoestima. <br>
+            Extração dental segura e sem dor.</p>
+        </div>
+        <div class="item-bg-escuro item-especialidade">
+          <h1>Profilaxia e prevenção</h1>
+          <p>Manutenção da saúde bucal com limpeza dental profissional.</p>
+        </div>
+        <div class="item-bg-claro item-especialidade">
+          <h1>Clareamento</h1>
+          <p>Renovando a beleza do seu sorriso.</p>
+        </div>
+      </div>
+
+      <div id="buttons-prev-next">
+        <span onclick="AlterarEspecialidade('prev')">
+          <i class="fa-solid fa-arrow-left"></i>
+        </span>
+        <span onclick="AlterarEspecialidade('next')">
+          <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-portfolio">
+    <div class="div-split-section">
+      <div>
+        <h1>Procedimentos realizados</h1>
+      </div>
+      <div>
+        <div class="split-barra"></div>
+      </div>
+    </div>
+
+    <div id="div-arraste-lado">
+      <span>Arraste para o lado</span>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div>
+
+    <div id="portfolio-content" class="owl-carousel">
+
+      <div>
+        <img src="assets/imgs/portfolio-4.jpeg" alt="Portfólio 4" />
+        <p>Remoção de aparelho e limpeza</p>
+      </div>
+      <div>
+        <img src="assets/imgs/portfolio-2.jpeg" alt="Portfólio 2" />
+        <p>Clareamento</p>
+      </div>
+      <div>
+        <img src="assets/imgs/portfolio-1.JPG" alt="Portfólio 1" />
+        <p>Implante</p>
+      </div>
+
+      <div>
+        <img src="assets/imgs/portfolio-5.jpeg" alt="Portfólio 5" />
+        <p>Remoção de tártaro</p>
+      </div>
+
+      <div>
+        <img src="assets/imgs/portfolio-3.JPG" alt="Portfólio 3" />
+        <p>Implante</p>
+      </div>
+
+      <div>
+        <img src="assets/imgs/portfolio-6.jpeg" alt="Portfólio 6" />
+        <p>Prótese sobre implante</p>
+      </div>
+
+      <div>
+        <img src="assets/imgs/portfolio-7.jpeg" alt="Portfólio 7" />
+        <p>Prótese sobre implante</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-sobre-mim">
+    <div>
+      <img id="img-logo-sobre-mim" src="assets/imgs/logo.png" alt="Logo" />
+    </div>
+    <div id="sobre-mim-title">
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <h1>Sobre Isabella</h1>
+    </div>
+    <div id="sobre-mim-content">
+      <div>
+        <p>
+          Sou uma dentista apaixonada pela saúde bucal e pelo bem-estar dos
+          meus pacientes. Com mais de 6 anos de experiência na área, busco
+          sempre oferecer um atendimento humanizado e soluções personalizadas
+          para cada sorriso. Meu compromisso é proporcionar tratamentos de
+          qualidade, alinhando conhecimento, tecnologia e profissionalismo,
+          transformando o atendimento em uma experiência única.
+        </p>
+      </div>
+      <img src="assets/imgs/foto-isabella-2.JPG" alt="Foto Isabella Prevatto" />
+    </div>
+  </section>
+
+  <section id="section-feedbacks">
+    <div id="feedbacks-title">
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <h1>Feedbacks dos pacientes</h1>
+    </div>
+
+    <div id="feedbacks-content">
+      <div>
+        <div>
+          <i class="fa-regular fa-user"></i>
+          <h1>Lucas Souza</h1>
+        </div>
+        <p>
+          “Excelente doutora! Fui super bem atendido, doutora pontual e uma
+          excelente profissional! Indico a todos que procuram um profissional
+          de qualidade!”
+        </p>
+      </div>
+      <div>
+        <div>
+          <i class="fa-regular fa-user"></i>
+          <h1>Camila Cardoso</h1>
+        </div>
+        <p>
+          “Dra Isabella é uma profissional extremamente competente e empática.
+          Desde o inicio me deixou muito a vontade na consulta.”
+        </p>
+      </div>
+      <div>
+        <div>
+          <i class="fa-regular fa-user"></i>
+          <h1>Carlos Marques</h1>
+        </div>
+        <p>
+          “Atendimento de excelência, Dra Isabella é uma pessoa muita
+          tranquila, nos deixa bem tranquilos. Parabéns pelo seu trabalho.”
+        </p>
+      </div>
+      <div>
+        <div>
+          <i class="fa-regular fa-user"></i>
+          <h1>Thauany Gomes</h1>
+        </div>
+        <p>“Uma excelente profissional, super atenciosa. Indico demais!”</p>
+      </div>
+      <div>
+        <div>
+          <i class="fa-regular fa-user"></i>
+          <h1>Larissa Fontes</h1>
+        </div>
+        <p>
+          “Excelente dentista! Realiza todas as cirurgias de siso
+          e implante no meu consultório, atende todos com muito
+          carinho e respeito. Profissional segura e experiente.”
+        </p>
+      </div>
+      <div>
+        <div>
+          <i class="fa-regular fa-user"></i>
+          <h1>Vanessa Ferreira</h1>
+        </div>
+        <p>
+          “A doutora Isabella é bastante profissional e acolhedora.
+          Uma profissional atenciosa e que transmite muita calma.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-contato">
+    <div id="contato-content">
+      <div>
+        <div>
+          <i style="color: green" class="fa-brands fa-whatsapp"></i>
+          <a style="text-decoration: none;" href="https://wa.me/5521998409575" target="_blank">
+            <p>(21) 99840-9575</p>
+          </a>
+        </div>
+        <div>
+          <i style="color: rgb(231, 106, 34)" class="fa-brands fa-instagram"></i>
+          <a style="text-decoration: none;" href="https://www.instagram.com/dra.isabellaprevatto/" target="_blank">
+            <p>@dra.isabellaprevatto</p>
+          </a>
+        </div>
+        <div>
+          <i class="fa-regular fa-envelope"></i>
+          <p>draisabellaprevatto@gmail.com</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <i style="color: red" class="fa-solid fa-location-dot"></i>
+          <p>
+            Rua Coronel Bernadino de Melo 2201, sala 809 - Nova Iguaçu, RJ
+          </p>
+        </div>
+        <div>
+          <i class="fa-regular fa-clock"></i>
+          <p>
+            Horário de atendimento:
+            <br>
+            Qua - 13h às 19h
+            <br />
+            Sex - 08h às 19h
+            <br />
+            Sab - 08h às 17h
+          </p>
+        </div>
+      </div>
+      <a target="_blank"
+        href="https://www.google.com.br/maps/place/Lumina+Corporate+-+R.+Cel.+Bernardino+de+Melo,+2201+-+Room+809+-+Downtown,+Nova+Igua%C3%A7u+-+RJ,+26255-140/@-22.7601399,-43.4550927,17z/data=!3m1!4b1!4m6!3m5!1s0x996706604824ab:0x3bcb179e1d3f553e!8m2!3d-22.7601399!4d-43.4525178!16s%2Fg%2F11tgd4rcdm?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D">
+        <img src="assets/imgs/loc-mapa.png" alt="Localização no google mapas" />
+      </a>
+    </div>
+
+    <a id="second-img-mapa" target="_blank"
+      href="https://www.google.com.br/maps/place/Lumina+Corporate+-+R.+Cel.+Bernardino+de+Melo,+2201+-+Room+809+-+Downtown,+Nova+Igua%C3%A7u+-+RJ,+26255-140/@-22.7601399,-43.4550927,17z/data=!3m1!4b1!4m6!3m5!1s0x996706604824ab:0x3bcb179e1d3f553e!8m2!3d-22.7601399!4d-43.4525178!16s%2Fg%2F11tgd4rcdm?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D">
+      <img src="assets/imgs/loc-mapa.png" alt="Localização no google mapas" />
+    </a>
+
+    <div id="contato-footer">
+      <img src="assets/imgs/logo.png" alt="Logo isabella Prevatto" />
+      <p>Dra. Isabella Prevatto</p>
+    </div>
+  </section>
+  <!-- <script src="jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="assets/lib/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+  <script src="assets/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>    <h1>Que isso lek</h1>
+  <script src="script.js"></script>
+
+
   </body>
+
 </html>
